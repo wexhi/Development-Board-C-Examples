@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{455b4ed9-6aaa-4633-a52f-acdb7ca45681}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{83065f2c-a890-438e-be2f-cabdf9aa88e2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{53d6ff1a-7b52-420c-a553-6f885faab829}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Application">
+      <UniqueIdentifier>{f7d48567-c8bb-4383-893c-b4d51609ab4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\MDK-ARM">
+      <UniqueIdentifier>{71631c30-ca51-4f42-a40b-6d2a75847ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User">
+      <UniqueIdentifier>{a1ebb50a-e806-4b87-950f-e4df285cae4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers">
+      <UniqueIdentifier>{d4e150fb-b287-4168-8af5-278c62e4d17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{febc08ca-c16f-42b3-be34-f112e3df5fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS">
+      <UniqueIdentifier>{6049324e-e750-461a-b231-8ad6485bd95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares">
+      <UniqueIdentifier>{b4099aa2-8899-4b07-b626-0e77de04e61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\FreeRTOS">
+      <UniqueIdentifier>{2e414861-171b-490c-bd2d-c76f6c38c82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\boards">
+      <UniqueIdentifier>{b79e5040-f622-4ced-bfc0-9340fe3497cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\devices">
+      <UniqueIdentifier>{83015bc4-b402-4a58-9e99-7ad85b3777cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\algorithm">
+      <UniqueIdentifier>{e432b180-db3d-4caf-88c0-cb4c4cf2a0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\controller">
+      <UniqueIdentifier>{3f48b169-2719-4817-9d1b-02cb7015ef7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\::CMSIS">
+      <UniqueIdentifier>{26c559b5-f3c7-42be-8818-bfc97ee0bdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{47af8197-b289-4c17-949b-95da9d1b2a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application">
+      <UniqueIdentifier>{de48a51b-1629-4c01-8bd9-7de468e2b49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\MDK-ARM">
+      <UniqueIdentifier>{b8d9ddc9-65df-4daf-89a1-f3f630c0a814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User">
+      <UniqueIdentifier>{a816fd40-9f15-4eed-a38e-ea7e4735f557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers">
+      <UniqueIdentifier>{0fcdb70e-236a-44ba-b068-251647617887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32F4xx_HAL_Driver">
+      <UniqueIdentifier>{4d828bd1-82c9-4663-8884-02f641ee096a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS">
+      <UniqueIdentifier>{9f06f148-889d-47c6-9d42-491e33191967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares">
+      <UniqueIdentifier>{1884c13b-5822-440a-80c1-f91d2bf183d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\FreeRTOS">
+      <UniqueIdentifier>{18a0963a-d987-44d0-8840-dd34e4133699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\boards">
+      <UniqueIdentifier>{2cc6083f-b7f3-4835-b270-a75102737abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\devices">
+      <UniqueIdentifier>{0fce6184-6cad-40a8-8c6c-f267f9c2eeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\algorithm">
+      <UniqueIdentifier>{f91e93f0-1d18-4b97-80f2-0c06e6c8c9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\controller">
+      <UniqueIdentifier>{ba826291-ea9b-4e7e-b5c5-1216c8e14a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\::CMSIS">
+      <UniqueIdentifier>{bd7a8dc6-060e-4314-9b61-b796d03bd62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{1c596ba4-5c57-4a8e-8704-f075186abf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{f5c897da-1944-43e7-b5be-8494353f4b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\application\calibrate_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\CAN_receive.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\chassis_behaviour.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\chassis_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\detect_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\INS_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\led_flow_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\remote_control.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\application\test_task.c">
+      <Filter>Source files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MDK-ARM\startup_stm32f407xx.S">
+      <Filter>Source files\Application\MDK-ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\main.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\gpio.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\can.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\dma.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\freertos.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\i2c.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\rtc.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\spi.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\tim.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\usart.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\stm32f4xx_it.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\stm32f4xx_hal_msp.c">
+      <Filter>Source files\Application\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c">
+      <Filter>Source files\Drivers\STM32F4xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\system_stm32f4xx.c">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\list.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c">
+      <Filter>Source files\Middlewares\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_buzzer.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_can.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_delay.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_flash.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_imu_pwm.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_led.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_rc.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bsp\boards\bsp_spi.c">
+      <Filter>Source files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\devices\BMI088driver.c">
+      <Filter>Source files\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\devices\BMI088Middleware.c">
+      <Filter>Source files\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\devices\ist8310driver.c">
+      <Filter>Source files\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\devices\ist8310driver_middleware.c">
+      <Filter>Source files\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\algorithm\AHRS_middleware.c">
+      <Filter>Source files\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\algorithm\user_lib.c">
+      <Filter>Source files\algorithm</Filter>
+    </ClCompile>
+    <Library Include="..\..\components\algorithm\AHRS.lib">
+      <Filter>Source files\algorithm</Filter>
+    </Library>
+    <Library Include="..\..\components\algorithm\arm_cortexM4lf_math.lib">
+      <Filter>Source files\algorithm</Filter>
+    </Library>
+    <ClCompile Include="..\..\components\controller\pid.c">
+      <Filter>Source files\controller</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="EmbeddedProject1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="EmbeddedProject1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

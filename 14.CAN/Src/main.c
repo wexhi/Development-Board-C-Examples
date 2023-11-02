@@ -27,6 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include "bsp_can.h"
 #include "CAN_receive.h"
+#include "pid.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -47,7 +48,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+motor_measure_t motor_chassis[7];
+pid_struct_t pid_chassis[4];
+fp32 pid_parama[3] = {10,0,0};
+fp32 target_speed = 2000;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,6 +98,11 @@ int main(void)
   MX_CAN2_Init();
   /* USER CODE BEGIN 2 */
     can_filter_init();
+    for (uint8_t i = 0; i < 4; i++)
+    {
+      pid_init(&pid_chassis[i], pid_parama, 16384, 16384);
+    }
+    
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,9 +112,15 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-        CAN_cmd_chassis(4000, 4000, 4000, 4000);
-        HAL_Delay(2);
-        CAN_cmd_gimbal(10000, 10000, 10000, 10000);
+        for(uint8_t i=0;i<4;i++)
+        {
+          motor_chassis[i].given_current = pid_calc(&pid_chassis[i], motor_chassis[i].speed_rpm, target_speed);
+        }
+        // CAN_cmd_chassis(4000, 4000, 4000, 4000);
+        // HAL_Delay(2);
+        // CAN_cmd_gimbal(10000, 10000, 10000, 10000);
+
+        CAN_cmd_chassis(motor_chassis[0].given_current, motor_chassis[1].given_current, motor_chassis[2].given_current, motor_chassis[3].given_current);
         HAL_Delay(2);
   }
   /* USER CODE END 3 */

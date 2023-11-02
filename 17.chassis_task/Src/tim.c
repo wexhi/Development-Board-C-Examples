@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2023 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under Ultimate Liberty license
@@ -298,8 +298,8 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
 
   /* USER CODE END TIM3_MspPostInit 0 */
     __HAL_RCC_GPIOC_CLK_ENABLE();
-    /**TIM3 GPIO Configuration    
-    PC8     ------> TIM3_CH3 
+    /**TIM3 GPIO Configuration
+    PC8     ------> TIM3_CH3
     */
     GPIO_InitStruct.Pin = GPIO_PIN_8;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -319,10 +319,10 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
   /* USER CODE BEGIN TIM4_MspPostInit 0 */
 
   /* USER CODE END TIM4_MspPostInit 0 */
-  
+
     __HAL_RCC_GPIOD_CLK_ENABLE();
-    /**TIM4 GPIO Configuration    
-    PD14     ------> TIM4_CH3 
+    /**TIM4 GPIO Configuration
+    PD14     ------> TIM4_CH3
     */
     GPIO_InitStruct.Pin = GPIO_PIN_14;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -342,12 +342,12 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
   /* USER CODE BEGIN TIM5_MspPostInit 0 */
 
   /* USER CODE END TIM5_MspPostInit 0 */
-  
+
     __HAL_RCC_GPIOH_CLK_ENABLE();
-    /**TIM5 GPIO Configuration    
+    /**TIM5 GPIO Configuration
     PH12     ------> TIM5_CH3
     PH11     ------> TIM5_CH2
-    PH10     ------> TIM5_CH1 
+    PH10     ------> TIM5_CH1
     */
     GPIO_InitStruct.Pin = LED_R_Pin|LED_G_Pin|LED_B_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -369,10 +369,10 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
   /* USER CODE BEGIN TIM10_MspPostInit 0 */
 
   /* USER CODE END TIM10_MspPostInit 0 */
-  
+
     __HAL_RCC_GPIOF_CLK_ENABLE();
-    /**TIM10 GPIO Configuration    
-    PF6     ------> TIM10_CH1 
+    /**TIM10 GPIO Configuration
+    PF6     ------> TIM10_CH1
     */
     GPIO_InitStruct.Pin = GPIO_PIN_6;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -448,7 +448,7 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
 
   /* USER CODE END TIM10_MspDeInit 1 */
   }
-} 
+}
 
 /* USER CODE BEGIN 1 */
 
