@@ -50,7 +50,7 @@
 /* USER CODE BEGIN PV */
 motor_measure_t motor_chassis[7];
 pid_struct_t pid_chassis[4];
-fp32 pid_parama[3] = {30,3,0};
+fp32 pid_parama[3] = {10,0,0};
 fp32 target_speed = 4000;
 /* USER CODE END PV */
 
